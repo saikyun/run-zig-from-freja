@@ -21,7 +21,7 @@
   [& args]
   (run "powershell" "-Command" "zig" "build-exe" ;args))
 
-(dh/global-set-key [:right-control :r]
+(dh/global-set-key [:control :r]
                    (fn [buffer]
                      (let [path (buffer :path) # e.g. "hello.zig"
                            exe-path (first (string/split "." path))] # e.g. "hello"
