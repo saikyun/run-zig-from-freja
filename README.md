@@ -3,13 +3,15 @@
 ## prerequisites
 
 [freja](https://github.com/saikyun/freja)
+[zig](https://ziglang.org/)
 
 ## try it
 
-0. `git clone https://github.com/saikyun/run-zig-from-freja`
-1. `freja --dofile run-zig.janet`
-2. Ctrl+P -> Choose `hello.zig` -> Enter
-3. Ctrl+R to run file
+1. `git clone https://github.com/saikyun/run-zig-from-freja`
+2. `cd run-zig-from-freja`
+3. `freja --dofile run-zig.janet`
+4. Ctrl+P -> Choose `hello.zig` -> Enter
+5. Ctrl+R to run file
 
 ## make it permanent
 
