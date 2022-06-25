@@ -2,7 +2,7 @@
 
 ## prerequisites
 
-[freja](https://github.com/saikyun/freja)
+[freja](https://github.com/saikyun/freja)  \
 [zig](https://ziglang.org/)
 
 ## try it
